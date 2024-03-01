@@ -49,4 +49,6 @@ Publisher: Association for Computational Linguistics
 URL: http://www.aclweb.org/anthology/P11-1015
 
 TMDB Logo
-![TMDB_logo](https://github.com/IEfrances/PolarityPredictorApp/assets/97649157/1af30a98-bc3f-4e57-b7d5-5330950e7b4d)
+<img src="https://github.com/IEfrances/PolarityPredictorApp/raw/main/assets/b59e09b2-bf96-4514-80dd-db0edef3f7b7.png" alt="Alt Text" width="10">
+
+
