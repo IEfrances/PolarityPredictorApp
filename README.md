@@ -38,7 +38,7 @@ Polarity generated may be incorrect for neutral statements and one word reviews 
 ### Credit
 Home background Image by Dorothe from Pixabay
 
-I would like to acknowledge the authors of the IMDB dataset for sentiment analysis used in this project. The dataset was introduced in the following paper:
+the IMDB dataset for sentiment analysis used in this project was introduced in the following paper:
 
 Learning Word Vectors for Sentiment Analysis
 Authors: Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, Christopher Potts
