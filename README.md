@@ -1,6 +1,8 @@
 
 **Project Type:** Sentiment Analysis Web Application
+
 **Web Framework:** Django
+
 **Machine Learning Algorithm:** Decision Tree
 
 
