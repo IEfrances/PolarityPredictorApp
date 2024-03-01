@@ -22,10 +22,10 @@ The Polarity Predictor web application analyzes and predicts sentiment polarity 
 
 ### Features:
 
-Sentiment Prediction: Users can input movie reviews and receive instant sentiment predictions. Sentiment is limited to positive and negative polarity.
-Dataset Source: The project uses the "IMDB Dataset of 50K Movie Reviews" from Kaggle, consisting of 50,000 movie reviews.
-Model Accuracy: The decision tree model used for this project achieved an accuracy of 72.45% on testing data.
-Movie Information: Random movie images are generated using The Movie Database (TMDB) API.
+- Sentiment Prediction: Users can input movie reviews and receive instant sentiment predictions. Sentiment is limited to positive and negative polarity.
+- Dataset Source: The project uses the "IMDB Dataset of 50K Movie Reviews" from Kaggle, consisting of 50,000 movie reviews.
+- Model Accuracy: The decision tree model used for this project achieved an accuracy of 72.45% on testing data.
+- Movie Information: Random movie images are generated using The Movie Database (TMDB) API.
 
 
 
@@ -33,9 +33,9 @@ Movie Information: Random movie images are generated using The Movie Database (T
 Polarity generated may be incorrect for neutral statements and one word reviews but I hope to address these issues in the future.
 
 #### Future Enhancements:
-Handle neutral sentiment.
-Implement user feedback to improve model accuracy.
-Expand polarity prediction beyond movie reviews.
+- Handle neutral sentiment.
+- Implement user feedback to improve model accuracy.
+- Expand polarity prediction beyond movie reviews.
 
 ### Credit
 Home background Image by Dorothe from Pixabay
