@@ -1,25 +1,25 @@
 
 **Project Type:** Sentiment Analysis Web Application
 
-Programming Language: Python
+**Programming Language:** Python
 
-Web Framework: Django
+**Web Framework:** Django
 
-Machine Learning Algorithm: Decision Tree
+**Machine Learning Algorithm:** Decision Tree
 
 
-Details
+###Details
 The Polarity Predictor web application analyzes and predicts sentiment polarity based on user-provided movie reviews. Initially, the project was developed to compare the performance of various machine learning models in sentiment analysis tasks. However, it has been refined to focus on implementing and deploying a single machine learning model.
 
 
-DEMO:
+###DEMO:
  
 
 https://github.com/IEfrances/PolarityPredictorApp/assets/97649157/b59e09b2-bf96-4514-80dd-db0edef3f7b7
 
 
 
-Features:
+###Features:
 
 Sentiment Prediction: Users can input movie reviews and receive instant sentiment predictions. Sentiment is limited to positive and negative polarity.
 Dataset Source: The project uses the "IMDB Dataset of 50K Movie Reviews" from Kaggle, consisting of 50,000 movie reviews.
@@ -28,15 +28,15 @@ Movie Information: Random movie images are generated using The Movie Database (T
 
 
 
-Limitations:
+####Limitations:
 Polarity generated may be incorrect for neutral statements and one word reviews but I hope to address these issues in the future.
 
-Future Enhancements:
-
+####Future Enhancements:
 Handle neutral sentiment.
 Implement user feedback to improve model accuracy.
 Expand polarity prediction beyond movie reviews.
-Credit
+
+###Credit
 Home background Image by Dorothe from Pixabay
 
 I would like to acknowledge the authors of the IMDB dataset for sentiment analysis used in this project. The dataset was introduced in the following paper:
@@ -48,3 +48,4 @@ Publisher: Association for Computational Linguistics
 URL: http://www.aclweb.org/anthology/P11-1015
 
 TMDB Logo
+![TMDB_logo](https://github.com/IEfrances/PolarityPredictorApp/assets/97649157/1af30a98-bc3f-4e57-b7d5-5330950e7b4d)
