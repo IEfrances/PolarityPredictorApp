@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polarity Predictor - Project Information</title>
+
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href= "{% static 'styles_home.css'%}">
+    
+</head>
+
+<body style = "background-color: rgb(255, 255, 255); ">
+    <h1 style="text-align: center;">Project Overview</h1> 
+
+    <div class="project-overview" style="margin-left: 39%; margin-top: 5%">
+        <p><b>Project Type:</b> Sentiment Analysis Web Application</p>
+        <p><b>Programming Language:</b> Python</p>
+        <p><b>Web Framework:</b> Django</p>
+        <p><b>Machine Learning Algorithm:</b> Decision Tree</p>
+        <p><b>Year:</b> 2024</p>
+    </div>
+    
+    <div class="details">
+        <h2>Details</h2>
+        <p>The Polarity Predictor web application analyzes and predicts sentiment polarity based on user-provided movie reviews. 
+           Initially, the project was developed to compare the performance of various machine learning models in sentiment analysis tasks.
+           However, it has been refined to focus on implementing and deploying a single machine learning model. </p>
+
+        <p><b>Features:</b></p>
+        <ul>
+            <li><b>Sentiment Prediction:</b> Users can input movie reviews and receive instant sentiment predictions. Sentiment is limited to positive and negative polarity.</li>
+            <li><b>Dataset Source:</b> The project uses the "IMDB Dataset of 50K Movie Reviews" from Kaggle, consisting of 50,000 movie reviews.</li>
+            <li><b>Model Accuracy:</b> The decision tree model used for this project achieved an accuracy of 72.45% on testing data.</li>
+            <li><b>Movie Information:</b> Random movie images are generated using The Movie Database (TMDB) API.</li>
+        </ul>
+        
+        <p><b>Limitation:</b><br>
+            This is a simple project, polarity isn't 100% accurate. Polarity generated may be incorrect for neutral statements and one word reviews.
+            For better results, it's advisable to give full sentence reviews.  I hope to address these issues in the future.</p>
+
+        <p><b>Future Enhancements:</b></p>
+        <ul>
+            <li>Handle neutral sentiment.</li>
+            <li>Implement user feedback to improve model accuracy.</li>
+            <li>Expand polarity prediction beyond movie reviews.</li>
+        </ul>
+    </div>
+    
+    <div class="credit">
+
+        <h2>Credit</h2>
+        <p>Home background Image by <a href="https://pixabay.com/users/darkmoon_art-1664300/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3700545">
+            Dorothe</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3700545">Pixabay</a></p>
+
+        <p>I would like to acknowledge the authors of the IMDB dataset for sentiment analysis used in this project. The dataset was introduced in the following paper:</p>
+        <p><i>Learning Word Vectors for Sentiment Analysis</i><br>
+        Authors: Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, Christopher Potts<br>
+        Published: Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies, June 2011, Pages 142-150.<br>
+        Publisher: Association for Computational Linguistics<br>
+        URL: <a href="http://www.aclweb.org/anthology/P11-1015">http://www.aclweb.org/anthology/P11-1015</a></p>
+
+       
+        <img src="{% static 'images/TMDB_logo.png' %}" alt="TMDB Logo">
+
+
+    </div>
+
+    
+
+
+
+</body>
+</html>

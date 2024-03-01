@@ -1,0 +1,11 @@
+body{
+    background-color: yellow;   
+}
+
+.image_display img{
+    display: block;
+    width: 200px !important; /* Adjust the width as needed */
+    height: 200px !important; /* Maintain aspect ratio */
+    margin-left: auto;
+    margin-right: auto;
+}

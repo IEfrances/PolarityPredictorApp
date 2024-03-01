@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polarity Predictor</title>
+
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href= "{% static 'styles_home.css'%}">   
+</head>
+
+<body>
+    
+    <div class ="background_container"></div>
+
+    <div class = "project_title">
+        <h1>Polarity Predictor</h1>
+        <h3>...for movie reviews</h3>
+    </div>
+
+    <div class="image_display">
+    <img src="{{ image_url }}" alt="Random Movie Image">
+    </div>
+
+    <div class="content_box">
+    <form method="post" action="{% url 'index' %}">
+        {% csrf_token %}
+        <input type="hidden" name="image_url" value="{{ image_url }}">
+        <label for="review_text">Enter your movie review:</label><br>
+        <textarea id="review_text" name="review_text" rows="4" cols="50" placeholder="For best result, enter full sentences."></textarea><br><br>
+        <input type="submit" value="Predict"><br><br>
+
+        <a href="{% url 'project_info' %}">Project Information</a>
+
+
+    </form>
+    </div>
+</body>
+</html>
