@@ -1,5 +1,5 @@
 
-Project Type: Sentiment Analysis Web Application
+**Project Type:** Sentiment Analysis Web Application
 
 Programming Language: Python
 
