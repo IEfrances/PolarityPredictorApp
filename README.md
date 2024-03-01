@@ -48,7 +48,6 @@ Published: Proceedings of the 49th Annual Meeting of the Association for Computa
 Publisher: Association for Computational Linguistics
 URL: http://www.aclweb.org/anthology/P11-1015
 
-TMDB Logo
-![TMDB_logo](https://github.com/IEfrances/PolarityPredictorApp/assets/97649157/a56ab0a3-87fe-4774-bb46-4be83e4d36da)
+
 
 
