@@ -13,7 +13,11 @@ The Polarity Predictor web application analyzes and predicts sentiment polarity 
 
 
 DEMO:
- <iframe src="https://drive.google.com/file/d/1husx1xatHpufmVED60Kwtzv8LJJDDN3-/view?usp=drive_link" ></iframe>
+ 
+
+https://github.com/IEfrances/PolarityPredictorApp/assets/97649157/b59e09b2-bf96-4514-80dd-db0edef3f7b7
+
+
 
 Features:
 
