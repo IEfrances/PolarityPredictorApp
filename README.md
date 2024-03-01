@@ -11,15 +11,16 @@ Machine Learning Algorithm: Decision Tree
 Details
 The Polarity Predictor web application analyzes and predicts sentiment polarity based on user-provided movie reviews. Initially, the project was developed to compare the performance of various machine learning models in sentiment analysis tasks. However, it has been refined to focus on implementing and deploying a single machine learning model.
 
+
+DEMO:
+(https://drive.google.com/file/d/1husx1xatHpufmVED60Kwtzv8LJJDDN3-/view?usp=drive_link)
+
 Features:
 
 Sentiment Prediction: Users can input movie reviews and receive instant sentiment predictions. Sentiment is limited to positive and negative polarity.
 Dataset Source: The project uses the "IMDB Dataset of 50K Movie Reviews" from Kaggle, consisting of 50,000 movie reviews.
 Model Accuracy: The decision tree model used for this project achieved an accuracy of 72.45% on testing data.
 Movie Information: Random movie images are generated using The Movie Database (TMDB) API.
-
-
-
 
 
 
